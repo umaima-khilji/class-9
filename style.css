@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: #1b1b1b;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    /* background: url(../responsive-NavBar/bgg.avif) no-repeat center center/cover ; */
+}
+
+
+nav {
+    /* background-color: #1b1b1b; */
+    /* width: 100%; */
+    height: 70px;
+    /* max-width: 1200px; */
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    /* display: flex; */
+}
+
+/* ::after selector to insert something after the content. */
+nav::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav .logo {
+    float: left;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 60px;
+    text-decoration: none;
+}
+
+nav .logo span{
+    color: #b77ef7;
+}
+
+/* float right means move the content to the right side same goes for left */
+/* position: relative; is positioned relative to its normal position */
+/* targating the first ul in nav */
+nav ul {
+    float: left;
+    float: right;
+    list-style: none;
+    margin-right: 400px;
+    position: relative;
+}
+
+
+/* display: inline-block is to display list items horizontally instead of vertically. */
+/* targating the first li in the first ul */
+nav ul li {
+    float: left;
+    display: inline-block;
+    /* background-color: #1b1b1b; */
+    margin: 0 5px;
+}
+
+
+/* targating the first a tag  */
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+nav ul li a:hover {
+
+    color: #b77ef7;
+    border-radius: 5px;
+    background-color: #272626;
+    /* box-shadow: 0 0 5px #b77ef7;
+    box-shadow: 0 0 5px #b77ef7; */
+}
+
+nav ul ul li a:hover {
+    color: #b77ef7;
+    box-shadow: none;
+
+}
+
+/*  visibility: hidden: to hide the drop down elements */
+/* /// Learn Design //// */
+nav ul ul {
+    position: absolute;
+    top: 90px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .3s;
+    background-color: #101010;
+    border-radius: 5px;
+}
+
+nav ul ul ul {
+    border-top: none;
+    background-color: #1b1b1b;
+}
+
+/* by hover effect hidden element will be shown with the visible property */
+nav ul li:hover>ul {
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* training : drop down */
+nav ul ul li {
+    position: relative;
+    margin: 0px;
+    width: 300px;
+    float: none;
+    display: list-item;
+}
+
+nav ul ul li:hover{
+   background-color: #272626; 
+   border-radius: 5px;
+}
+
+nav ul ul li a {
+    /* space btw lines of dropdown elements  */
+    line-height: 50px;
+}
+
+/* Learn design > go pro > dropdown */
+nav ul ul ul li {
+    position: relative;
+    top: -20px;
+    left: 200px;
+    background-color: #101010;
+    /* border-radius: 5px; */
+}
+span .fa-chevron-down{
+    margin-left: 5px;
+    font-size: 15px;
+
+}
+
+
+
+/* btn */
+.btn {
+    float: right;
+    top: 15px;
+    margin-right: -850px;
+    position: relative;
+    /* border: 1px solid white; */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    /* border: 2px solid white; */
+    border-radius: 5px;
+    background-color: #272626;
+    
+    /* border: none; */
+}
+
+
+.btn a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+.btn a:hover{
+    color: #b77ef7;
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+.content{
+    /* display: grid;
+    justify-content: center;
+    align-items: center; */
+    /* top: 50%; */
+    max-width: 650px;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    text-align: center;
+
+}
+.content h1{
+    color: white;
+    /* justify-content: center;
+    align-items: center; */
+    font-size: 50px;
+
+}
+.content p{
+    color: white;  
+}
