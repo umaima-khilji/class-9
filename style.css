@@ -7,19 +7,26 @@
 }
 
 body{
-    /* background-color: #1b1b1b; */
+    background-color: #141414;
 }
 
 .container{
     background-color: #1b1b1b;
     width: 100%;
     min-height: 70vh;
+
+    /* height: cover; */
 }
+/* h1.text{
+    top: -250px;
+} */
 
 nav{
     height: 70px;
     margin: auto;
     background-color: #1b1b1b;
+    z-index: 1;
+    position: sticky;
 }
 
 
@@ -32,7 +39,7 @@ nav .logo{
     margin-top: 20px;
 
 }
-.logo h2{
+nav .logo span {
     color: #fca5a5;
 }
 
@@ -74,6 +81,7 @@ nav ul ul{
     visibility: hidden;
     background-color: #101010;
     border-radius: 5px;
+    z-index: 999;
 }
 
 nav ul ul li{
@@ -140,8 +148,10 @@ nav ul ul li:hover{
 
  h1{
     color: white;
-    margin: 10px 0px 10px;
+    margin: 50px 0px 10px;
     font-size: 4.5rem;
+    
+    
 }
 .content p{
     color: aliceblue;
@@ -206,6 +216,7 @@ nav ul ul li:hover{
     justify-content: center;
     align-items: center;
     min-height: 700px;
+   
 }
 
 .service .card{
@@ -243,5 +254,12 @@ nav ul ul li:hover{
     overflow: hidden;
     border-radius: 50%;
 }
-
+/* ////////// */
+h2{
+    color: white;
+       
+}
+img.item1{
+    display: flex;
+}
 
