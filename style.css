@@ -165,7 +165,7 @@ nav ul ul li:hover{
 .content p{
     color: aliceblue;
     position: absolute;
-    top: 125%;
+    top: 108%;
     font-size: 1rem;
 }
 
@@ -175,7 +175,7 @@ nav ul ul li:hover{
    border-radius: 10px;
    background-color: transparent;
    position: absolute;
-    top: 141%;
+    top: 123%;
     background-color: #272626;
    /* border: 2px solid red; */
 }
