@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: #141414;
+}
+
+.container{
+    background-color: #1b1b1b;
+    width: 100%;
+    min-height: 70vh;
+
+    /* height: cover; */
+}
+/* h1.text{
+    top: -250px;
+} */
+
+nav{
+    height: 70px;
+    margin: auto;
+    background-color: #1b1b1b;
+    z-index: 1;
+    position: sticky;
+}
+
+
+nav .logo{
+    float: left;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 60px;
+    margin-top: 20px;
+
+}
+nav .logo span {
+    color: #fca5a5;
+}
+
+/* nav .logo span{
+    color: #fca5a5;
+} */
+
+nav ul {
+    float: right;
+    list-style: none;
+    margin-right: 450px;
+    position: relative;
+}
+
+/* to make the list in one line */
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* for decoration of nav list */
+nav ul li a{
+    color: aliceblue;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+/* to chnge the color of nav list by hover */
+nav ul li a:hover{
+    color: #fca5a5;
+    border-radius: 5px;
+    background-color: #272626;
+}
+
+/* for dropdwon of traning element  */
+nav ul ul{
+    position: absolute;
+    top: 90px;
+    visibility: hidden;
+    background-color: #101010;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 300px;
+    display: list-item;
+}
+nav ul ul li a:hover{
+    color: #fca5a5;
+}
+
+/* to show the dropdown menu by hover */
+nav ul li:hover>ul{
+    visibility: visible;
+    top: 70px;
+    
+}
+
+/* for space btw box/list */
+nav ul ul li a {
+    line-height: 50px;
+}
+
+/* by hover ul ul list background color will change */
+nav ul ul li:hover{
+    background-color: #272626; 
+    border-radius: 5px;
+ }
+
+
+ /* //// btn //// */
+ .btn{
+    float: right;
+    top: 15px;
+    margin-right: -900px;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+ }
+
+ .btn:hover{
+    border-radius: 5px;
+    background-color: #272626;
+ }
+
+ .btn a{
+    color: aliceblue;
+    font-size: 18px;
+ }
+
+ .btn a:hover{
+    color: #fca5a5;
+ }
+
+ /* //////////////////////////////////////////// */
+
+ .content{
+    position: absolute;
+    top: 18%;
+    left: 38%;
+    transform: translate(-50%);
+ }
+
+ h1{
+    color: white;
+    margin: 50px 0px 10px;
+    font-size: 4.5rem;
+    
+    
+}
+.content p{
+    color: aliceblue;
+    position: absolute;
+    top: 125%;
+    font-size: 1rem;
+}
+
+.btnn{
+   color: aliceblue;
+   padding: 10px;
+   border-radius: 10px;
+   background-color: transparent;
+   position: absolute;
+    top: 141%;
+    background-color: #272626;
+   /* border: 2px solid red; */
+}
+
+ .btnn a{
+    color: aliceblue;
+    font-size: 18px;
+ }
+
+ .btnn a:hover{
+    color: #fca5a5;
+ }
+
+
+/* ///////// */
+.box{
+    display: flex;
+    left: 55%;
+    position: absolute;
+    min-height: 330px;
+    min-width: 330px;
+    top: 256px;
+}
+
+.box .img{
+    margin: 20px;
+    /* border: 2px solid red; */
+    height: 253px;
+    width: 257px;
+    /* padding: 20px 30px; */
+    background: #191919;
+    /* border-radius: 20px; */
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+/* ////////// */
+.service{
+    background-color:#272626;
+    width: 100%;
+    /* height: 100%; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+   
+}
+
+.service .card{
+    height: 205px;
+    width: 254px;
+    padding: 20px 30px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    /* text-align: center; */
+}
+
+.card .img{
+   width: 55px;
+}
+.card h5{
+    margin-top: 13px;
+    font-size: 1.2rem;
+}
+.card p{
+    margin-top: 11px;
+    font-size: 13px;
+}
+
+.cardpara{
+    height: 205px;
+    width: 254px;
+    /* padding: 20px 30px; */
+    background: #191919;
+
+    /* margin: 15px; */
+    /* position: relative; */
+    overflow: hidden;
+    border-radius: 50%;
+}
+/* ////////// */
+h2{
+    color: white;
+       
+}
+img.item1{
+    display: flex;
+}
+
