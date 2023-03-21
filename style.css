@@ -165,7 +165,7 @@ nav ul ul li:hover{
 .content p{
     color: aliceblue;
     position: absolute;
-    top: 108%;
+    top: 125%;
     font-size: 1rem;
 }
 
@@ -175,7 +175,7 @@ nav ul ul li:hover{
    border-radius: 10px;
    background-color: transparent;
    position: absolute;
-    top: 123%;
+    top: 141%;
     background-color: #272626;
    /* border: 2px solid red; */
 }
@@ -251,13 +251,102 @@ nav ul ul li:hover{
 }
 
 .cardpara{
-    height: 205px;
-    width: 254px;
+    height: 250px;
+    width: 275px;
     /* padding: 20px 30px; */
     background: #191919;
-
-    /* margin: 15px; */
+    margin: 20px;
     /* position: relative; */
     overflow: hidden;
     border-radius: 50%;
 }
+
+/* ///// products /// */
+#product{
+    background-color:#272626;
+    width: 100%;
+    /* height: 100%; */
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    min-height: 700px;
+}
+
+#product .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 455px;
+}
+.circle{
+    width: 31%;
+    height: 90%;
+}
+
+
+.list h2{
+    /* margin-left: 123px; */
+    padding-left: 140px;
+    font-size: 2.2rem;
+    color: #ffd7d7;
+}
+
+/* 
+.list ul{
+    float: right;
+    list-style: none;
+    margin-right: 147px;
+    position: relative;
+}
+.list ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.list ul li a{
+    color: aliceblue;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px;
+} */
+
+/* /////// company /// */
+#company{
+    background-color:#272626;
+    width: 100%;
+    /* height: 100%; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+#company .box{
+    height: 205px;
+    width: 254px;
+    padding: 20px 30px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+
+}
+#company .box p{
+    margin-top: 11px;
+    font-size: 13px;
+}
+
+#name{
+    padding-left: 140px;
+    font-size: 2.2rem;
+    color: #ffd7d7;
+    background-color:#272626;
+}
+
+
+
+
