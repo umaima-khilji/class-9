@@ -1,56 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dropdown Navbar</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <div class="container">
-        <nav>
-            <!-- /////// logo ////// -->
-            <a href="#" class="logo">
-                <h2>Your<span>Beauty</span></h2>
+    <!-- /// Navigation Bar ////// -->
+    <nav class="navbar">
+        <!-- /////// logo ////// -->
+        <a href="#" class="logo">
+            <h2>Beauty</h2>
+        </a>
+        <!-- /// nav content /// -->
+        <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">Product</a>
+                <ul>
+                    <li> <a href="#">UI/UX</a> </li>
+                    <li><a href="#">CSS</a></li>
+                    <li> <a href="#">Mentor</a></li>
+                    <li><a href="#">Coaching</a></li>
+                </ul>
+            </li>
+            <li> <a href="#">Beauty</a></li>
+            <li> <a href="#">Review</a></li>
+            <li> <a href="#">Contact</a></li>
+        </ul>
 
-            </a>
-            <!-- /// nav content /// -->
-            <ul>
-                <li> <a href="#">Home</a></li>
-                <li> <a href="#">Product</a>
-                    <ul>
-                        <li> <a href="#">UI/UX</a> </li>
-                        <li><a href="#">CSS</a></li>
-                        <li> <a href="#">Mentor</a></li>
-                        <li><a href="#">Coaching</a></li>
-                    </ul>
-                </li>
-                <li> <a href="#">Beauty</a></li>
-                <li> <a href="#">Review</a></li>
-                <li> <a href="#">Contact</a></li>
-            </ul>
+        <div class="btn">
+            <a href="#">Member Panel</a>
+        </div>
+    </nav>
 
-            <div class="btn">
-                <a href="#">Member Panel</a>
-            </div>
-        </nav>
-
-        <!-- //////////// -->
+       <!-- //////////// -->
+       <section id="home">
         <div class="content">
-            <h1 class="text"> We take care of your beauty </h1>
+            <h1> We taki care of your beauty </h1>
             <p> We provide range of treatements designed to enhance the natural beauty.</p>
             <div class="btnn">
                 <a href="#">Shop Products</a>
             </div>
         </div>
-    </div>
-    <!-- /////////////////////////////////////////////// -->
-    <div class="box">
+    </section>
 
+<!-- /////////////////////////////////////////// -->
+    <section id="box">
         <div class="img">
             <!-- box1 -->
             <img src="./bx.PNG" alt="">
@@ -60,10 +58,10 @@
             <img src="./bx.PNG" alt="">
         </div>
 
-    </div>
+    </section>
 
-    <!-- ///////////////////////////// -->
-    <div class="service">
+    <!-- //////////////////// -->
+    <section id="service">
         <div class="cardpara">
             <img src="./beauty.PNG" alt="">
         </div>
@@ -72,31 +70,26 @@
             <img src="./skin.png" alt="" class="img">
             <h5>SKIN CARE</h5>
 
-                <p>We provide the wide range of treatments designed to enhance thenatural beauty</p>
+            <p>We provide the wide range of treatments designed to enhance thenatural beauty</p>
         </div>
 
         <div class="card">
             <img src="./hair.png" alt="" class="img">
             <h5>HAIR & BODY</h5>
 
-                <p>We provide the wide range of treatments designed to enhance thenatural beauty</p>
+            <p>We provide the wide range of treatments designed to enhance thenatural beauty</p>
         </div>
 
         <div class="card">
             <img src="./makup.png" alt="" class="img">
             <h5>MAKE UP</h5>
 
-                <p>We provide the wide range of treatments designed to enhance thenatural beauty</p>
+            <p>We provide the wide range of treatments designed to enhance thenatural beauty</p>
         </div>
-       
+
         <!-- <div class="card">box</div>
         <div class="card">box</div> -->
-    </div>
-    <!-- ///////////////////////////// -->
-    <div class="products">
-        <h2>OUR POPULAR PRODUCTS</h2>
-        <img src="./product.jpeg" alt="product" class="item1">
-        
+    </section>
+    
 </body>
-
 </html>
