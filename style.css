@@ -496,6 +496,9 @@ footer #container{
     margin-bottom: 20px;
     position: relative;
 }
+.footer-col .color{
+    color: #fca5a5;
+}
 .footer-col ul li{
     padding: 10px 0;
     display: inline-block;
