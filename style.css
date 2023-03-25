@@ -30,13 +30,13 @@ nav .logo{
     margin-top: 20px;
 
 }
-.logo h2{
-    color: #fca5a5;
-}
-
-/* nav .logo span{
+/* .logo h2{
     color: #fca5a5;
 } */
+
+nav .logo span{
+    color: #fca5a5;
+}
 
 nav ul {
     float: right;
