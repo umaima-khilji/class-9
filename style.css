@@ -475,8 +475,95 @@ font-size: 23px;
 padding-left: 10px;
 }
 
+
 /* /////Footer////// */
-#footer{
+footer #container{
+    background-color:#272626 ;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 106px;
+}
+
+.footer-col ul{
+    list-style: none;
+
+}
+.footer-col h2{
+    color: aliceblue;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    position: relative;
+}
+.footer-col ul li{
+    padding: 10px 0;
+    display: inline-block;
+    margin-right: 10px;
+
+
+}
+.footer-col ul li a{
+color: aliceblue;
+text-decoration: none;
+font-size: 16px;
+opacity: 0.7;
+transition: 0.5s;
+}
+.footer-col ul li a:hover{
+    opacity: 1;
+}
+.footer-col p{
+    color: aliceblue;
+text-decoration: none;
+font-size: 16px;
+}
+.footer-col .box{
+    background-color: #191919;
+    margin-top: 21px;
+    width: 292px;
+    height: 42px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+    border: 1px solid #fca5a5; 
+}
+.footer-col input{
+    width: 240x;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+
+}
+.footer-col .fa-regular{
+    color: #fca5a5;
+    cursor: pointer;
+}
+.footer-col .text li{
+    color: aliceblue;
+}
+.footer-col .text a{
+    color: aliceblue;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #101010;
+}
+
+.row2 .col p{
+    color: aliceblue;
+}
+
+
+
+/* ////////// */
+/* #footer{
     position: relative;
     width: 100%;
     background-color: #272626;
@@ -492,13 +579,13 @@ padding-left: 10px;
     text-decoration: none;
     color: aliceblue;
     list-style: none;
-}
+} */
 /* #footer .beauty{
     display: flex;
     align-items: center;
     justify-content: center;
 } */
-#footer .beauty ul{
+/* #footer .beauty ul{
 position: relative;
 top: 20px;
 
@@ -514,13 +601,11 @@ top: 20px;
 }
 #footer p{
     margin-top: 15px;
-}
+} */
 /* ////// */
-#footer .subscribe{
+/* #footer .subscribe{
     position: relative;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+  
 }
 #footer h2{
     font-size: 2rem;
@@ -549,11 +634,11 @@ top: 20px;
 #footer .subscribe .fa-regular{
     color: #fca5a5;
     cursor: pointer;
-}
+} */
 
 
 /* ///// */
-#footer .follow-us {
+/* #footer .follow-us {
     position: relative;
 }
 
@@ -566,7 +651,6 @@ top: 20px;
     list-style: none;
     margin-top: 15px;
    
-    /* display: inline-block; */
 }
 #footer .foot{
     display: grid;
@@ -574,8 +658,5 @@ top: 20px;
     align-items: center;
     justify-content: center;
     padding-left: 164px;
-}
-/* #footer .foot{
-    border-top: 1px solid #fca5a5;
 } */
 
