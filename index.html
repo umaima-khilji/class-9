@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -44,7 +46,7 @@
 
     <!-- //////////// -->
     <section id="home">
-        <div class="content">
+        <div class="content"  >
             <h1> We take care of your beauty </h1>
             <p> We provide range of treatements designed to enhance the natural beauty.</p>
             <div class="btnn">
@@ -54,7 +56,7 @@
     </section>
 
     <!-- /////////////////////////////////////////// -->
-    <section id="box">
+    <section id="box" >
         <div class="img">
             <!-- box1 -->
             <img src="./bx.PNG" alt="">
@@ -67,19 +69,22 @@
     </section>
 
     <!-- //////////////////// -->
-    <section id="service">
-        <div class="cardpara">
+    <section id="service" >
+       
+        <div class="cardpara" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"> 
             <img src="./beauty.PNG" alt="">
         </div>
 
-        <div class="card">
+        <div class="card" > 
             <img src="./skin.png" alt="" class="img">
             <h5>SKIN CARE</h5>
 
             <p>We provide the wide range of treatments designed to enhance thenatural beauty</p>
         </div>
 
-        <div class="card">
+        <div class="card" > 
             <img src="./hair.png" alt="" class="img">
             <h5>HAIR & BODY</h5>
 
@@ -92,7 +97,7 @@
 
             <p>We provide the wide range of treatments designed to enhance thenatural beauty</p>
         </div>
-
+ 
     </section>
   
     <section id="product">
@@ -105,7 +110,7 @@
             <h4>ALL</h4>
         </div>
         </div>
-        <div class="cards">
+        <div class="cards" data-aos="zoom-in-up">
             <div class="cardpara">
                 <img src="./pp1.PNG" alt="">
             </div>
@@ -119,8 +124,8 @@
     </section>
 
     <!-- /////////////////////// -->
-    <div class="name">
-        <h2>BRANDS WE HELP THRIVE </h2>
+    <div class="name" >
+        <h2 data-aos="zoom-in">BRANDS WE HELP THRIVE </h2>
     </div>
     <section id="company">
         <div class="slide">
@@ -150,7 +155,7 @@
     <!-- ///////////////////////////////////////////////////////// -->
 
     <section id="view-more">
-        <div class="v-content">
+        <div class="v-content"  data-aos="fade-right">
             <h2>WE MAKE GOING ALL NATURAL BEAUTY</h2>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dicta, rem corrupti asperiores
@@ -167,20 +172,20 @@
 
         </div>
 
-        <div class="v-img">
+        <div class="v-img" >
             <img src="./view1.jpg" alt="">
         </div>
     </section>
     <!-- ////////////////////////////////////////// -->
     <section id="insta">
-        <div class="insta-img">
+        <div class="insta-img"  data-aos="flip-up" >
             <img src="./insta.PNG" alt="">
         </div>
 
-        <div class="insta-c">
-            <h2>FOLLOW BEAUTY ON INSTAGRAM</h2>
+        <div class="insta-c"  >
+            <h2 data-aos="zoom-in-up" >FOLLOW BEAUTY ON INSTAGRAM</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dicta, rem corrupti asperiores
+            <p data-aos="zoom-in-up" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dicta, rem corrupti asperiores
                 necessitatibus accusantium placeat facere ratione vitae tenetur aspernatur autem culpa velit dolores, in
                 dignissimos aliquam, quos provident. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
                 molestiae eligendi incidunt natus. Debitis cumque dicta ea, ipsa nulla est velit commodi. Blanditiis
@@ -188,7 +193,7 @@
                 adipisicing elit. Non libero iste perferendis aspernatur blanditiis nisi aperiam dicta reprehenderit
                 quae, ab nihil aliquam magnam nemo vero odit sed voluptate eaque officia.</p>
 
-            <div class="bttn">
+            <div class="bttn" data-aos="zoom-in-up" >
                 <a href="#">FOLLOW INSTAGRAM <i class="fa-brands fa-instagram"></i> </a>
             </div>
 
@@ -238,6 +243,12 @@
             </div>
         </div>
     </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 

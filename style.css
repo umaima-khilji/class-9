@@ -160,7 +160,18 @@ nav ul ul li:hover{
     color: white;
     margin: 10px 0px 10px;
     font-size: 4.5rem;
+    /* color: transparent;
+    -webkit-text-stroke: 1px #fff;
+background: url(./back.PNG);
+-webkit-background-clip: text;
+background-position: 0 0;
+animation: back 20s linear infinite; */
 }
+/* @keyframes back {
+    background-position: 2000px 0;
+} */
+
+
 .content p{
     color: aliceblue;
     position: absolute;
