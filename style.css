@@ -346,6 +346,7 @@ animation: back 20s linear infinite; */
     display: inline-block;
 
 }
+
 #company .box p{
     margin-top: 55px;
     font-size: 28px;
@@ -354,7 +355,9 @@ animation: back 20s linear infinite; */
     align-items: center;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
-
+#company .box p img{
+    width: 150px;
+}
 .name{
     display: flex;
     align-items: center;
